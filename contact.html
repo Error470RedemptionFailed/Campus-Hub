@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | UA Campus Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="top-bar">
+    Welcome to UA Campus Hub | Your Campus, Connected
+</div>
+
+<header>
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">
+            <img src="Ualogo.png" alt="Ualogo">
+            <div class="logo-text">
+                <h2>UA CAMPUS HUB</h2>
+                <span>University Information Portal</span>
+            </div>
+        </a>
+
+        <button class="menu-toggle" aria-label="Toggle menu"
+        aria-expanded="false">☰</button>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="events.html">News & Events</a>
+            <a href="contact.html" class="contact-btn active">Contact</a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="page-banner">
+
+        <div class="container">
+
+            <h1>Contact Us</h1>
+
+            <p>
+                Have questions, suggestions, or concerns?
+                Send us an inquiry through our contact form.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container contact-grid">
+
+
+            <div class="contact-info">
+
+                <h2>Get in Touch</h2>
+
+                <p>
+                    We welcome questions, feedback,
+                    and suggestions about our
+                    UA Campus Hub platform.
+                </p>
+
+                <br>
+
+                <h3> Location</h3>
+                <p>
+                    University of Antique
+                    <br>
+                    Replace with verified campus address.
+                </p>
+
+                <br>
+
+                <h3> Email Address</h3>
+                <p>
+                    Insert official university email here.
+                </p>
+
+                <br>
+
+                <h3> Official Website</h3>
+                <p>
+                    Insert official university website link here.
+                </p>
+
+            </div>
+
+            <div class="contact-form">
+
+                <h2>Send an Inquiry</h2>
+
+                <p>
+                    Fill out the form below to
+                    submit your questions or feedback.
+                </p>
+
+                <br>
+
+                <form id="contact-form">
+
+                    <div class="form-group">
+
+                        <label for="name">Full Name</label>
+
+                        <input type="text" id="name" placeholder="Enter your full name" required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">Email Address</label>
+
+                        <input type="email" id="email" placeholder="Enter your email" required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="subject">Subject</label>
+
+                        <select id="subject" required>
+
+                            <option value="">Select a subject</option>
+                            <option>Academic Resources</option>
+                            <option>Enrollment Inquiry</option>
+                            <option>Campus Services</option>
+                            <option>Events and Activities</option>
+                            <option>Other</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="message">Your Message</label>
+
+                        <textarea
+                            id="message"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Submit Inquiry →
+                    </button>
+
+                    <p id="form-message" class="form-message"
+                    role="status" aria-live="polite"></p>
+
+                </form>
+
+                <p style="font-size:11px;margin-top:15px;">
+                    Demonstration form only. Messages are not
+                    actually sent or stored.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+                <h3>UA CAMPUS HUB</h3>
+                <p>A centralized platform for university information.</p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="events.html">News & Events</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <div>
+                <h3>About This Project</h3>
+                <p>Student Website Prototype</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year"></span> UA Campus Hub</span>
+            <span>Student Project Prototype</span>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
